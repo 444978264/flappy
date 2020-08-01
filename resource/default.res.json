@@ -1,23 +1,375 @@
 {
-	"groups":[
-	{
-		"keys":"bg_jpg,egret_icon_png,description_json",
-		"name":"preload"
-	}],
-	"resources":[
-	{
-		"name":"bg_jpg",
-		"type":"image",
-		"url":"assets/bg.jpg"
-	},
-	{
-		"name":"egret_icon_png",
-		"type":"image",
-		"url":"assets/egret_icon.png"
-	},
-	{
-		"name":"description_json",
-		"type":"json",
-		"url":"config/description.json"
-	}]
+	"groups": [
+		{
+			"keys": "description_json,atlas_png,bg_day_png,bg_night_png,bird0_0_png,bird0_1_png,bird0_2_png,bird1_0_png,bird1_1_png,bird1_2_png,bird2_0_png,bird2_1_png,bird2_2_png,black_png,blink_00_png,blink_01_png,blink_02_png,brand_copyright_png,button_menu_png,button_ok_png,button_pause_png,button_play_png,button_rate_png,button_resume_png,button_score_png,button_share_png,font_048_png,font_049_png,font_050_png,font_051_png,font_052_png,font_053_png,font_054_png,font_055_png,font_056_png,font_057_png,land_png,medals_0_png,medals_1_png,medals_2_png,medals_3_png,new_png,number_context_00_png,number_context_01_png,number_context_02_png,number_context_03_png,number_context_04_png,number_context_05_png,number_context_06_png,number_context_07_png,number_context_08_png,number_context_09_png,number_context_10_png,number_score_00_png,number_score_01_png,number_score_02_png,number_score_03_png,number_score_04_png,number_score_05_png,number_score_06_png,number_score_07_png,number_score_08_png,number_score_09_png,pipe_down_png,pipe_up_png,pipe2_down_png,pipe2_up_png,score_panel_png,text_game_over_png,text_ready_png,title_png,tutorial_png,white_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "atlas_png",
+			"type": "image",
+			"url": "assets/atlas.png"
+		},
+		{
+			"name": "bg_day_png",
+			"type": "image",
+			"url": "assets/bg_day.png"
+		},
+		{
+			"name": "bg_night_png",
+			"type": "image",
+			"url": "assets/bg_night.png"
+		},
+		{
+			"name": "bird0_0_png",
+			"type": "image",
+			"url": "assets/bird0_0.png"
+		},
+		{
+			"name": "bird0_1_png",
+			"type": "image",
+			"url": "assets/bird0_1.png"
+		},
+		{
+			"name": "bird0_2_png",
+			"type": "image",
+			"url": "assets/bird0_2.png"
+		},
+		{
+			"name": "bird1_0_png",
+			"type": "image",
+			"url": "assets/bird1_0.png"
+		},
+		{
+			"name": "bird1_1_png",
+			"type": "image",
+			"url": "assets/bird1_1.png"
+		},
+		{
+			"name": "bird1_2_png",
+			"type": "image",
+			"url": "assets/bird1_2.png"
+		},
+		{
+			"name": "bird2_0_png",
+			"type": "image",
+			"url": "assets/bird2_0.png"
+		},
+		{
+			"name": "bird2_1_png",
+			"type": "image",
+			"url": "assets/bird2_1.png"
+		},
+		{
+			"name": "bird2_2_png",
+			"type": "image",
+			"url": "assets/bird2_2.png"
+		},
+		{
+			"name": "black_png",
+			"type": "image",
+			"url": "assets/black.png"
+		},
+		{
+			"name": "blink_00_png",
+			"type": "image",
+			"url": "assets/blink_00.png"
+		},
+		{
+			"name": "blink_01_png",
+			"type": "image",
+			"url": "assets/blink_01.png"
+		},
+		{
+			"name": "blink_02_png",
+			"type": "image",
+			"url": "assets/blink_02.png"
+		},
+		{
+			"name": "brand_copyright_png",
+			"type": "image",
+			"url": "assets/brand_copyright.png"
+		},
+		{
+			"name": "button_menu_png",
+			"type": "image",
+			"url": "assets/button_menu.png"
+		},
+		{
+			"name": "button_ok_png",
+			"type": "image",
+			"url": "assets/button_ok.png"
+		},
+		{
+			"name": "button_pause_png",
+			"type": "image",
+			"url": "assets/button_pause.png"
+		},
+		{
+			"name": "button_play_png",
+			"type": "image",
+			"url": "assets/button_play.png"
+		},
+		{
+			"name": "button_rate_png",
+			"type": "image",
+			"url": "assets/button_rate.png"
+		},
+		{
+			"name": "button_resume_png",
+			"type": "image",
+			"url": "assets/button_resume.png"
+		},
+		{
+			"name": "button_score_png",
+			"type": "image",
+			"url": "assets/button_score.png"
+		},
+		{
+			"name": "button_share_png",
+			"type": "image",
+			"url": "assets/button_share.png"
+		},
+		{
+			"name": "font_048_png",
+			"type": "image",
+			"url": "assets/font_048.png"
+		},
+		{
+			"name": "font_049_png",
+			"type": "image",
+			"url": "assets/font_049.png"
+		},
+		{
+			"name": "font_050_png",
+			"type": "image",
+			"url": "assets/font_050.png"
+		},
+		{
+			"name": "font_051_png",
+			"type": "image",
+			"url": "assets/font_051.png"
+		},
+		{
+			"name": "font_052_png",
+			"type": "image",
+			"url": "assets/font_052.png"
+		},
+		{
+			"name": "font_053_png",
+			"type": "image",
+			"url": "assets/font_053.png"
+		},
+		{
+			"name": "font_054_png",
+			"type": "image",
+			"url": "assets/font_054.png"
+		},
+		{
+			"name": "font_055_png",
+			"type": "image",
+			"url": "assets/font_055.png"
+		},
+		{
+			"name": "font_056_png",
+			"type": "image",
+			"url": "assets/font_056.png"
+		},
+		{
+			"name": "font_057_png",
+			"type": "image",
+			"url": "assets/font_057.png"
+		},
+		{
+			"name": "land_png",
+			"type": "image",
+			"url": "assets/land.png"
+		},
+		{
+			"name": "medals_0_png",
+			"type": "image",
+			"url": "assets/medals_0.png"
+		},
+		{
+			"name": "medals_1_png",
+			"type": "image",
+			"url": "assets/medals_1.png"
+		},
+		{
+			"name": "medals_2_png",
+			"type": "image",
+			"url": "assets/medals_2.png"
+		},
+		{
+			"name": "medals_3_png",
+			"type": "image",
+			"url": "assets/medals_3.png"
+		},
+		{
+			"name": "new_png",
+			"type": "image",
+			"url": "assets/new.png"
+		},
+		{
+			"name": "number_context_00_png",
+			"type": "image",
+			"url": "assets/number_context_00.png"
+		},
+		{
+			"name": "number_context_01_png",
+			"type": "image",
+			"url": "assets/number_context_01.png"
+		},
+		{
+			"name": "number_context_02_png",
+			"type": "image",
+			"url": "assets/number_context_02.png"
+		},
+		{
+			"name": "number_context_03_png",
+			"type": "image",
+			"url": "assets/number_context_03.png"
+		},
+		{
+			"name": "number_context_04_png",
+			"type": "image",
+			"url": "assets/number_context_04.png"
+		},
+		{
+			"name": "number_context_05_png",
+			"type": "image",
+			"url": "assets/number_context_05.png"
+		},
+		{
+			"name": "number_context_06_png",
+			"type": "image",
+			"url": "assets/number_context_06.png"
+		},
+		{
+			"name": "number_context_07_png",
+			"type": "image",
+			"url": "assets/number_context_07.png"
+		},
+		{
+			"name": "number_context_08_png",
+			"type": "image",
+			"url": "assets/number_context_08.png"
+		},
+		{
+			"name": "number_context_09_png",
+			"type": "image",
+			"url": "assets/number_context_09.png"
+		},
+		{
+			"name": "number_context_10_png",
+			"type": "image",
+			"url": "assets/number_context_10.png"
+		},
+		{
+			"name": "number_score_00_png",
+			"type": "image",
+			"url": "assets/number_score_00.png"
+		},
+		{
+			"name": "number_score_01_png",
+			"type": "image",
+			"url": "assets/number_score_01.png"
+		},
+		{
+			"name": "number_score_02_png",
+			"type": "image",
+			"url": "assets/number_score_02.png"
+		},
+		{
+			"name": "number_score_03_png",
+			"type": "image",
+			"url": "assets/number_score_03.png"
+		},
+		{
+			"name": "number_score_04_png",
+			"type": "image",
+			"url": "assets/number_score_04.png"
+		},
+		{
+			"name": "number_score_05_png",
+			"type": "image",
+			"url": "assets/number_score_05.png"
+		},
+		{
+			"name": "number_score_06_png",
+			"type": "image",
+			"url": "assets/number_score_06.png"
+		},
+		{
+			"name": "number_score_07_png",
+			"type": "image",
+			"url": "assets/number_score_07.png"
+		},
+		{
+			"name": "number_score_08_png",
+			"type": "image",
+			"url": "assets/number_score_08.png"
+		},
+		{
+			"name": "number_score_09_png",
+			"type": "image",
+			"url": "assets/number_score_09.png"
+		},
+		{
+			"name": "pipe_down_png",
+			"type": "image",
+			"url": "assets/pipe_down.png"
+		},
+		{
+			"name": "pipe_up_png",
+			"type": "image",
+			"url": "assets/pipe_up.png"
+		},
+		{
+			"name": "pipe2_down_png",
+			"type": "image",
+			"url": "assets/pipe2_down.png"
+		},
+		{
+			"name": "pipe2_up_png",
+			"type": "image",
+			"url": "assets/pipe2_up.png"
+		},
+		{
+			"name": "score_panel_png",
+			"type": "image",
+			"url": "assets/score_panel.png"
+		},
+		{
+			"name": "text_game_over_png",
+			"type": "image",
+			"url": "assets/text_game_over.png"
+		},
+		{
+			"name": "text_ready_png",
+			"type": "image",
+			"url": "assets/text_ready.png"
+		},
+		{
+			"name": "title_png",
+			"type": "image",
+			"url": "assets/title.png"
+		},
+		{
+			"name": "tutorial_png",
+			"type": "image",
+			"url": "assets/tutorial.png"
+		},
+		{
+			"name": "white_png",
+			"type": "image",
+			"url": "assets/white.png"
+		}
+	]
 }
